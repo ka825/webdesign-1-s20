@@ -1,0 +1,22 @@
+/* CSS Document */
+
+.photo-credit{
+	font-family: Helvetic, sans-serif;
+	font-size: .6em;
+	line-height: 1.3em;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	text-align: right;
+	}
+
+h1 {
+	font-family: 'Helvetica', sans-serif;
+	}
+p {
+	font-family: 'Georgia', serif;
+	}
+
+.main-content {
+	padding: 100px 0;
+}

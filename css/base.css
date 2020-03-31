@@ -1,0 +1,309 @@
+/* This is our base CSS file */
+
+
+
+/* Border Box */
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit
+}
+
+/* Basic Styles */
+
+body {
+	color: #2f2f2f;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 100%;
+	line-height: 1.5em;
+	text-align: left;
+}
+
+/* Typography */
+p {
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+h1 {
+	font-family: 'Roboto slab', serif;
+	font-weight: 700;
+	font-size: 3em;
+	line-height: 1.1em;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Roboto slab', serif;
+	font-weight: 700;
+	font-size: 2em;
+	line-height: 1.1em;
+}
+h3 {
+	font-family: 'Roboto slab', serif;
+	font-weight: 700;
+	font-size: 1.375em;
+	line-height: 1.1em;
+}
+h4 {
+	font-family: 'Roboto slab', serif;
+	font-weight: 700;
+	font-size: 1em;
+	line-height: 1.1em;
+}
+h5 {
+	font-family: 'Roboto slab', serif;
+	font-weight: 700;
+	font-size: 0.938em;
+	line-height: 1.1em;
+}
+h6 {
+	font-family: 'Roboto slab', serif;
+	font-weight: 700;
+	font-size: 0.813em;
+	line-height: 1.1em;
+}
+
+.large-text{
+	font-size: 1.375em;
+	line-height: 1.4em;
+}
+
+.small-text {
+font-size: 0.750em;
+line-height: 1.2em;
+}
+
+/* Simple Grid  - 12 columns 60/20 */
+
+
+.columns_1 {
+	width: 940px;
+	float: left;
+}
+
+.columns_2 {
+	width: 460px;
+	float: left;
+	margin-right: 20px; 
+}
+
+.columns_2:last-of-type {
+	margin-right: 0;
+}
+
+.columns_3 {
+	width: 300px;
+	float: left;
+	margin-right: 20px; 
+}
+
+.columns_3:last-of-type {
+	margin-right: 0;
+}
+
+.columns_4 {
+	width: 220px;
+	float: left;
+	margin-right: 20px; 
+}
+
+.columns_4:last-of-type {
+	margin-right: 0;
+}
+
+.columns_6 {
+	width: 140px;
+	float: left;
+	margin-right: 20px; 
+}
+
+.columns_6:last-of-type {
+	margin-right: 0;
+}
+.columns_12 {
+	width: 60px;
+	float: left;
+	margin-right: 20px; 
+}
+
+.columns_12:last-of-type {
+	margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Misc HTML */
+
+.align-right {
+	float: right;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+
+.align-left {
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 0;
+}
+
+.align-center {
+	display: block;
+	margin: 0 auto;
+}
+
+.container {
+	width: 940px;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+	clear: both;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+.section-head {
+	margin-top:0;
+	margin-bottom: 5px;
+	text-align: center;
+	}
+
+.section-copy {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+/* Buttons */
+
+.button-lesson {
+	width: 100%;
+	padding: 100px;
+	background-color: #94ddff;
+	}
+
+.solid-btn{
+	display: inline-block;
+	padding: 15px 25px;
+	background-color: #a3a3a3;;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.solid-btn:hover {
+	background-color: #6e6e6e;
+}
+
+.lt-otl-btn {
+display: inline-block;
+	padding: 12px 25px;
+	font-size: 20px;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.lt-otl-btn:hover {
+	color: #000000;
+	border-color: #000000;
+}
+
+
+
+.drk-otl-btn {
+display: inline-block;
+	padding: 12px 25px;
+	font-size: 20px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #000000;
+}
+
+.drk-otl-btn:hover {
+	color: #7a7373;
+	border-color: #7A7373;
+}
+
+/*submit buttons */
+
+.solid-submit-btn{
+	display: inline-block;
+	padding: 12px 25px;
+	background-color: #a3a3a3;
+	font-size: 20px;
+	border: none;
+	border-radius: 25px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.solid-submit-btn:hover {
+	background-color: #6e6e6e;
+}
+
+.lt-otl-submit-btn {
+display: inline-block;
+	padding: 12px 25px;
+	font-size: 20px;
+	border: 1px solid #ffffff;
+	border-radius: 25px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #ffffff;
+	background-color: transparent;
+}
+
+.lt-otl-submit-btn:hover {
+	color: #000000;
+	border-color: #000000;
+}
+
+
+
+.drk-otl-submit-btn {
+display: inline-block;
+	padding: 12px 25px;
+	font-size: 20px;
+	border: 1px solid #000000;
+	border-radius: 25px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #000000;
+	background-color: transparent;
+}
+
+.drk-otl-submit-btn:hover {
+	color: #7a7373;
+	border-color: #7A7373;
+}
+
+
+
+
