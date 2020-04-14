@@ -2,58 +2,62 @@
 
 header {
 	width: 100%;
-	background-color: #efefef;
+	height: 125px;
+	background-color: #402F13;
 	position: fixed;
-	top: 0;
 	z-index: 1000;
 	
 }
 
 .logo {
-	width: 150px;
-	height: 14px;
-	float: left;
-	background: url("../images/pedagogy.svg") no-repeat;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	width: 100%;
+	height: 35px;
+	background: url("../images/logo.svg") no-repeat;
+	margin:25px 80px;
+	
 }
-nav {float: right;
+
+
+
+nav {float:inherit;
+	width: 100%;
+
 }
 nav ul { 
-list-style-type: none;
-	text-align: right;
+	background-color: #AF8B4D;
+	width: 100%;
+	height: 40px;
+    list-style-type:inherit;
+	float: inherit;
+	margin: 20px 30px;
 }
+
 nav li {
 	display: inline-block;
 	font-size: .8em;
-	font-weight: 700;
+	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	margin-left: 20px;
 	cursor: pointer;
-	
 }
-/* Hero Image */
 
-.hero-overlay {
-	position: absolute;
-	width: 940px;
-	top: 136px;
-	height: 550px;
-	z-index: 100px;
-	background-image: url("../images/imac.png");
-	background-repeat: no-repeat;
-	background-position: bottom;
-}
+
+
+/* Hero Image */
 
 .hero-image {
 	width: 100%;
 	height: 580px;
-	background-image: url("../images/cloud_poster.jpg");
+	background-image: url("../images/alcazardecolon.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
+.hero-headline {
+color: #402F13;
+text-transform: uppercase;
+}
 
 
 
@@ -61,49 +65,85 @@ nav li {
 
 .introduction {
 	width: 100%;
-	padding: 130px 0;
+	padding: 10px 0;
 	background-color: #ffffff;
 	
 }
 
-/* About */
 
-.about {
-	width: 100%;
-	padding: 100px 0;
-	background-color: #efefef;
 	
+/* Historical Monuments */
+.monuments-header{
+	text-transform: uppercase;
+	text-align: center;
+}
+.mon-description {
+	text-align: center;
+}
+.monuments{
+	margin-top: 100px;
 }
 
-/* Costumer Testimonials */
+.monuments2{
+	margin-bottom: 100px;
+}
+.mon-description, .monuments-header{
+	align-text:center;
+	color: #402F13
+}
+.mon1,.mon2, .mon3, .mon4{
+	text-align: center;
+	color: #805F26;
+}
 
-.testimonials{
-	width: 100%;
-	padding: 100px 0;
+
+
+
+
+
+/* culture */
+.culture{
+	margin:100px 0 ;
 	background-color: #ffffff;
+}
+.culture img {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.culture-header {
+	text-transform: uppercase;
 	text-align: center;
 }
 
-.testimonials img {
-	width: 130px;
-	margin: 0 auto;
-	border-radius: 50%;
-}
 
-/* Projects */
 
-.projects{
+
+/*attractions */
+
+
+
+
+.attractions{
 	width: 100%;
 	padding: 100px 0;
-	background-color: #efefef;	
+	background-color: #ffffff;	
 }
 
-.project-box {
-	background-color: #f8f8f8;
+.attractions-box {
+	background-color: #AF8B4D;
 }
-.project-text {
+.attractions-head{
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+.attractions-text {
 	padding: 10px 20px;
+	text-align: center;
 }
+
+
 
 .project-link{
 	font-size: .7em;
@@ -115,108 +155,114 @@ nav li {
 }
 
 
-/* Features */
-
-.features {
-	width: 100%;
-	padding: 100px 0;
+/* location */
+.location{
 	background-color: #ffffff;
+	margin: 100px 0;
+	
 }
-
-.features-subhead {
-	text-align: left;
-	margin-left: 50px;
-	margin-bottom: 5px;
+.location-head{
+	text-align: center;
+	text-transform: uppercase;
 	
 }
 
-.features-copy {
-	text-align: left;
-	margin-left: 50px;
-	margin-bottom: 20px;
+.location-description{
+	text-align: center;
 }
 
-.fa-github,
-.fa-html5,
-.fa-tools,
-.fa-css3,
-.fa-file-pdf,
-.fa-codepen{
-	color: #696969;
-	font-size: 2.5em;
-	margin-bottom: 10px;
-	margin-top: 20px;
-	float: left;
+
+
+
+
+/* testimonials */
+
+.testimonials {
+	background-color: #D6B16F;
+	margin: 150px 0;
 	
 }
-
-/* Memberships */
-.memberships {
- 	width: 100%;
-	padding: 100px 0;
-	background-color: #efefef;
-}
-
-.membership-free,
-.membership-montly,
-.membership-yearly {
-	font-size: 2em;
-	color: #ffffff;
+.testimonials-head{
 	text-align: center;
-	padding: 20px 0;
+	text-transform: uppercase;
 }
 
-.membership-free {
-	background-color: #a3a3a3;
+.testimonials-subhead, .testimonials-copy {
+	text-decoration-color: #402F13;
 }
 
-.membership-montly {
-	background-color: #6e6e6e;
-}
 
-.membership-yearly {
-	background-color: #a3a3a3;
-}
-
-.membership-cost{
-	font-size:1.2em;
-	font-weight:900;
-	text-align: center;
-	padding:10px 0;
-	margin-bottom: 20px;
-	background-color: #dedede;
-}
-
-.membership-features {
-	text-align: center;
-	background-color: #f6f6f6;
+/* gallery */
+.gallery{
+	background-color: #ffffff;
+	padding-top: 100px;
 	padding-bottom: 20px;
 }
 
-.membership-features ul {
-	padding: 0;
-	margin: 0;
+.gallery-head{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.gallery2 {
+	padding-bottom: 100px;
+}
+
+/* Videos*/
+
+.videos{
+	background-color: #AF8B4D;
+	padding: 100px 0;
+}
+.videos-head{
+	text-transform: uppercase;
+	text-align: center;
+	color: #402F13;
+}
+.video-title{
+	color: #ffffff;
 	text-align: center;
 }
-
-.membership-features li { 
-	list-style: none outside none;
+.videos-description{
+	text-align: center;
+	color: #402F13;
 }
 
-.membership-btn {
-margin: 30px auto;
+
+/* About Unesco*/
+.about{
+	background-color: #ffffff;
+	padding: 100px 0;
+}
+
+.about-head {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.our-vision{
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+/* About */
+
+.about {
+	width: 100%;
+	padding: 100px 0;
+	background-color: #efefef;
 	
 }
 
-.membership-btn a {
-	border-radius: 5px;
-	background-color: #dedede;
-	padding: 10px 30px;
-	font-size: .9em;
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #515255;
-}
+
+
+
 
 
 
@@ -229,20 +275,22 @@ margin: 30px auto;
 }
 
 
-/* Contact Us */
-.contact {
+
+
+/* Sign up */
+
+.signup {
 	width: 100%;
-	padding: 100px 0;
-	background-color: #efefef;
+	padding: 80px 0;
+	background-color: #D6B16F;
 }
-
-.contact img {
-	margin-bottom: 20px;
-}
-
-.city {
+.signup-head{
+	text-align: center;
 	text-transform: uppercase;
-	font-weight: 900;
+}
+.signup-description{
+	color: #ffffff;
+	text-align: center;
 }
 
 
@@ -250,12 +298,10 @@ margin: 30px auto;
 .contact-form input[type="email"],
 .contact-form textarea,
 .contact-form select {
-	width: 100%;
-	height: 35px;
+	width: 960px;
+	height: 40px;
 	margin-bottom: 20px;
-	padding: 5px 5px 5px 10px;
-	border: 1px solid #dadada;
-	color: #dadada;
+	color: #FFFFFF;
 }
 
 .contact-form textarea {

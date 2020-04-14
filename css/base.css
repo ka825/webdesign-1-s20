@@ -14,9 +14,9 @@ html {
 
 body {
 	color: #2f2f2f;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'bernina-sans', sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 100%;
 	line-height: 1.5em;
 	text-align: left;
@@ -29,7 +29,7 @@ p {
 }
 
 h1 {
-	font-family: 'Roboto slab', serif;
+	font-family: 'MillerBanner Bold', serif;
 	font-weight: 700;
 	font-size: 3em;
 	line-height: 1.1em;
@@ -37,31 +37,31 @@ h1 {
 }
 
 h2 {
-	font-family: 'Roboto slab', serif;
+	font-family: 'MillerBanner Bold', serif;
 	font-weight: 700;
 	font-size: 2em;
 	line-height: 1.1em;
 }
 h3 {
-	font-family: 'Roboto slab', serif;
+	font-family: 'MillerBanner Bold', serif;
 	font-weight: 700;
 	font-size: 1.375em;
 	line-height: 1.1em;
 }
 h4 {
-	font-family: 'Roboto slab', serif;
+	font-family: 'MillerBanner Bold', serif;
 	font-weight: 700;
 	font-size: 1em;
 	line-height: 1.1em;
 }
 h5 {
-	font-family: 'Roboto slab', serif;
+	font-family: 'MillerBanner Bold', serif;
 	font-weight: 700;
 	font-size: 0.938em;
 	line-height: 1.1em;
 }
 h6 {
-	font-family: 'Roboto slab', serif;
+	font-family: 'MillerBanner Bold', serif;
 	font-weight: 700;
 	font-size: 0.813em;
 	line-height: 1.1em;
