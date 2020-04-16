@@ -23,13 +23,14 @@ nav {float:inherit;
 	width: 100%;
 
 }
+
 nav ul { 
-	background-color: #AF8B4D;
-	width: 100%;
-	height: 40px;
+	
     list-style-type:inherit;
 	float: inherit;
 	margin: 20px 30px;
+	
+	
 }
 
 nav li {
@@ -38,10 +39,27 @@ nav li {
 	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: .1em;
-	margin-left: 20px;
+	margin-left: 19px;
 	cursor: pointer;
+	position: relative;
+	padding-top: 8px;
 }
 
+nav li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+nav li a:hover{
+	color: #805F26;
+}
+.navigationbar {
+	background-color: #AF8B4D;
+	width: 100%;
+	align-self: center;
+	height: 40px;
+	position:absolute;
+	float:inherit;
+}
 
 
 /* Hero Image */
@@ -69,7 +87,9 @@ text-transform: uppercase;
 	background-color: #ffffff;
 	
 }
-
+.intro-body{
+	color: #402F13;
+}
 
 	
 /* Historical Monuments */
@@ -96,18 +116,21 @@ text-transform: uppercase;
 	color: #805F26;
 }
 
-
+.mon-body{
+	color: #402F13;
+}
 
 
 
 
 /* culture */
 .culture{
-	margin:100px 0 ;
+	margin-top:100px;
 	background-color: #ffffff;
 }
-.culture img {
+.cul-pic {
 	width: 100%;
+	padding-top: 10px;
 	padding-bottom: 20px;
 }
 
@@ -116,6 +139,12 @@ text-transform: uppercase;
 	text-align: center;
 }
 
+.cul-body {
+	color: #402F13;
+}
+.cul-body2 {
+	padding-bottom: 50px;
+}
 
 
 
@@ -126,12 +155,13 @@ text-transform: uppercase;
 
 .attractions{
 	width: 100%;
-	padding: 100px 0;
+	padding: 50px 0 50px 0;
 	background-color: #ffffff;	
 }
 
 .attractions-box {
 	background-color: #AF8B4D;
+	height: 700px;
 }
 .attractions-head{
 	text-align: center;
@@ -142,23 +172,24 @@ text-transform: uppercase;
 	padding: 10px 20px;
 	text-align: center;
 }
-
-
-
-.project-link{
-	font-size: .7em;
-	text-transform: uppercase;
-	letter-spacing: .09em;
-	font-weight: 600;
-	text-decoration: none;
-	
+.attractions-caption{
+	color: #ffffff;
+	font-size: 300;
 }
+.solid-btn2 {
+	margin-top: 23px;
+}
+
+.solid-btn3{
+	margin-top: 47px;
+}
+
 
 
 /* location */
 .location{
 	background-color: #ffffff;
-	margin: 100px 0;
+	padding: 50px 0 0px 0;
 	
 }
 .location-head{
@@ -171,6 +202,9 @@ text-transform: uppercase;
 	text-align: center;
 }
 
+.map-pic {
+	padding-bottom: 50px;
+}
 
 
 
@@ -179,17 +213,34 @@ text-transform: uppercase;
 
 .testimonials {
 	background-color: #D6B16F;
-	margin: 150px 0;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	
+}
+.testimonials img{
+	padding-right: 20px;
+	padding-bottom: 20px;
 }
 .testimonials-head{
 	text-align: center;
 	text-transform: uppercase;
 }
 
-.testimonials-subhead, .testimonials-copy {
+.testimonials-subhead, .test-copy {
 	text-decoration-color: #402F13;
 }
+
+.test-copy{
+color: #402f13;
+left: -20px;
+}
+
+.test-names{
+color: #402f13;	
+}
+
+
+
 
 
 /* gallery */
@@ -205,8 +256,15 @@ text-transform: uppercase;
 }
 
 .gallery2 {
-	padding-bottom: 100px;
+	padding-bottom: 130px;
 }
+
+
+
+
+
+
+
 
 /* Videos*/
 
@@ -244,6 +302,9 @@ text-transform: uppercase;
 	text-transform: uppercase;
 }
 
+.about-copy {
+	color: #402F13;
+}
 
 
 
@@ -251,12 +312,12 @@ text-transform: uppercase;
 
 
 
-/* About */
+/* About Unesco*/
 
-.about {
+.about-unesco {
 	width: 100%;
 	padding: 100px 0;
-	background-color: #efefef;
+	background-color: #ffffff;
 	
 }
 
@@ -268,12 +329,21 @@ text-transform: uppercase;
 
 /* Locations */
 
-.Locations{
+.location{
+	margin-top: 100px;
 	width: 100%;
-	padding: 100px 0;
+	padding: 5px 0;
 	background-color: #ffffff;
 }
+.map-pic {
+	margin-bottom: 80px;
+}
+.map-pic img{
+	padding-bottom: 20px;
+}
+.solid-btn {
 
+}
 
 
 
@@ -291,22 +361,41 @@ text-transform: uppercase;
 .signup-description{
 	color: #ffffff;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea,
-.contact-form select {
-	width: 960px;
+.email-form input[type="text"],
+.email-form input[type="email"],
+.email-form textarea,
+.email-form select {
+	width: 620px;
 	height: 40px;
+	padding-right: 80px;
+	box-sizing: content-box;
+	resize: vertical;
 	margin-bottom: 20px;
-	color: #FFFFFF;
+	background-color: #FFFFFF;
+	display: inline-block;
+	border: none;
+  
 }
 
-.contact-form textarea {
-	height: 200px;
+.solid-button-email{
+float: right;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 
@@ -314,7 +403,7 @@ footer {
 	width: 100%;
 	padding: 50px 0;
 	text-align: center;
-	background-color: #3c3c3c;
+	background-color: #402f13;
 	}
 
 .copyright {

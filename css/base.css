@@ -95,6 +95,8 @@ line-height: 1.2em;
 	margin-right: 0;
 }
 
+
+
 .columns_3 {
 	width: 300px;
 	float: left;
@@ -196,20 +198,80 @@ img {
 	}
 
 .solid-btn{
-	display: inline-block;
-	padding: 15px 25px;
-	background-color: #a3a3a3;;
-	font-size: 20px;
-	border-radius: 5px;
+	
+	padding: 12px 25px;
+	background-color: #402F13;;
+	font-size: 12px;
+	border-radius: 4px;
 	margin-bottom: 20px;
 	text-decoration: none;
+	text-transform: uppercase;
 	cursor: pointer;
 	color: #ffffff;
+	align-content: center;
 }
 
 .solid-btn:hover {
-	background-color: #6e6e6e;
+	background-color: #805F26;
 }
+
+
+
+.solid-btn2{
+	
+	padding: 12px 25px;
+	background-color: #402F13;;
+	font-size: 12px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #ffffff;
+	align-content: center;
+}
+
+.solid-btn2:hover {
+	background-color: #805F26;
+}
+
+
+.solid-btn3{
+	
+	padding: 12px 25px;
+	background-color: #402F13;;
+	font-size: 12px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #ffffff;
+	align-content: center;
+}
+
+.solid-btn3:hover {
+	background-color: #805F26;
+}
+
+.solid-btn-email{
+	
+	padding: 12px 25px;
+	background-color: #402F13;;
+	font-size: 12px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #ffffff;
+	align-content: center;
+}
+
+.solid-btn:hover {
+	background-color: #805F26;
+}
+
 
 .lt-otl-btn {
 display: inline-block;
