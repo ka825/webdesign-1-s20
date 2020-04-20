@@ -209,6 +209,7 @@ img {
 	cursor: pointer;
 	color: #ffffff;
 	align-content: center;
+	border: none;
 }
 
 .solid-btn:hover {
@@ -229,6 +230,7 @@ img {
 	cursor: pointer;
 	color: #ffffff;
 	align-content: center;
+	border: none;
 }
 
 .solid-btn2:hover {
@@ -248,11 +250,37 @@ img {
 	cursor: pointer;
 	color: #ffffff;
 	align-content: center;
+	border: none;
 }
 
 .solid-btn3:hover {
 	background-color: #805F26;
 }
+
+
+.solid-btn-map{
+	
+	padding: 12px 25px;
+	background-color: #402F13;;
+	font-size: 12px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #ffffff;
+	align-content: center;
+	border: none;
+}
+
+.solid-btn-map:hover {
+	background-color: #805F26;
+}
+
+
+
+
+
 
 .solid-btn-email{
 	
@@ -266,9 +294,10 @@ img {
 	cursor: pointer;
 	color: #ffffff;
 	align-content: center;
+	border: none;
 }
 
-.solid-btn:hover {
+.solid-btn-email:hover {
 	background-color: #805F26;
 }
 

@@ -2,7 +2,7 @@
 
 header {
 	width: 100%;
-	height: 125px;
+	height: 120px;
 	background-color: #402F13;
 	position: fixed;
 	z-index: 1000;
@@ -10,25 +10,27 @@ header {
 }
 
 .logo {
-	width: 100%;
-	height: 35px;
-	background: url("../images/logo.svg") no-repeat;
-	margin:25px 80px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ffffff; 
+	padding-top: 10px;
+	
+
 	
 }
 
 
 
-nav {float:inherit;
-	width: 100%;
+nav {
+	
+	
 
 }
 
 nav ul { 
 	
     list-style-type:inherit;
-	float: inherit;
-	margin: 20px 30px;
+	margin: 8px 30px;
 	
 	
 }
@@ -42,8 +44,10 @@ nav li {
 	margin-left: 19px;
 	cursor: pointer;
 	position: relative;
-	padding-top: 8px;
+	text-align: justify;
+	
 }
+
 
 nav li a{
 	text-decoration: none;
@@ -55,10 +59,11 @@ nav li a:hover{
 .navigationbar {
 	background-color: #AF8B4D;
 	width: 100%;
-	align-self: center;
 	height: 40px;
 	position:absolute;
 	float:inherit;
+	
+
 }
 
 
@@ -177,11 +182,11 @@ text-transform: uppercase;
 	font-size: 300;
 }
 .solid-btn2 {
-	margin-top: 23px;
+	margin-top: 24px;
 }
 
 .solid-btn3{
-	margin-top: 47px;
+	margin-top: 48px;
 }
 
 
@@ -288,14 +293,17 @@ color: #402f13;
 
 
 /* About Unesco*/
-.about{
-	background-color: #ffffff;
+.about-unesco {
+	width: 100%;
 	padding: 100px 0;
+	background-color: #ffffff;
+	
 }
 
 .about-head {
 	text-align: center;
 	text-transform: uppercase;
+	color: #402F13;
 }
 
 .our-vision{
@@ -305,25 +313,6 @@ color: #402f13;
 .about-copy {
 	color: #402F13;
 }
-
-
-
-
-
-
-
-/* About Unesco*/
-
-.about-unesco {
-	width: 100%;
-	padding: 100px 0;
-	background-color: #ffffff;
-	
-}
-
-
-
-
 
 
 
@@ -341,8 +330,8 @@ color: #402f13;
 .map-pic img{
 	padding-bottom: 20px;
 }
-.solid-btn {
-
+.solid-btn-map{
+	margin: 0 338px;
 }
 
 
@@ -357,11 +346,13 @@ color: #402f13;
 .signup-head{
 	text-align: center;
 	text-transform: uppercase;
+	color: #402F13;
 }
 .signup-description{
 	color: #ffffff;
 	text-align: center;
 	text-transform: uppercase;
+	padding-top: 10px;
 }
 
 
@@ -371,18 +362,22 @@ color: #402f13;
 .email-form select {
 	width: 620px;
 	height: 40px;
-	padding-right: 80px;
+	margin-left: 80px;
 	box-sizing: content-box;
-	resize: vertical;
-	margin-bottom: 20px;
 	background-color: #FFFFFF;
 	display: inline-block;
 	border: none;
+	text-indent: inherit;
+	
+	
+
   
 }
 
-.solid-button-email{
-float: right;
+.solid-btn-email {
+	margin-left: 720px;
+	position: relative;
+
 }
 
 
@@ -402,13 +397,29 @@ float: right;
 footer {
 	width: 100%;
 	padding: 50px 0;
-	text-align: center;
 	background-color: #402f13;
 	}
 
+
+.footer-list{
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: .2em;
+}
+
+
+.footer-logo{
+	text-transform: uppercase;
+	color: #ffffff;
+	
+}
+
+
 .copyright {
 	width: 100%;
-	color: #959595;
+	color: #ffffff;
+	text-transform: uppercase
 	}
 
 .copyright p {
@@ -417,28 +428,33 @@ footer {
 
 .fa-facebook-square, 
 .fa-twitter-square,
-.fa-linkedin {
-	font-size: 2em;
+.fa-instagram-square,
+.fa-envelope-square,
+.fa-share-alt-square{
+	align-content: center;
+	font-size: 1.5em;
 	margin: 20px 5px 0px 5px;
+	padding-top: 80px;
+	
 }
 
 footer a:link {
-	color: #959595;
+	color: #ffffff;
 	text-decoration: none;
 }
 
 footer a:visited {
-	color: #959595;
+	color: #ffffff;
 	text-decoration: none;
 }
 
 footer a:hover {
-	color: #ffffff;
+	color: #D6B16F;
 	text-decoration: underline;
 }
 
 footer a:active {
-    color: #ffffff;
+    color: #D6B16F;
 	text-decoration: underline;	
 }
 
