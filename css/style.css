@@ -367,8 +367,7 @@ color: #402f13;
 	background-color: #FFFFFF;
 	display: inline-block;
 	border: none;
-	text-indent: inherit;
-	
+	position: relative;
 	
 
   
@@ -376,7 +375,7 @@ color: #402f13;
 
 .solid-btn-email {
 	margin-left: 720px;
-	position: relative;
+	position: absolute;
 
 }
 
@@ -419,11 +418,16 @@ footer {
 .copyright {
 	width: 100%;
 	color: #ffffff;
-	text-transform: uppercase
+	text-transform: uppercase;
 	}
 
 .copyright p {
 	margin-bottom: 0;
+}
+.copyright-end{
+	font-size: .2em;
+	color: #ffffff;
+	text-align: center;
 }
 
 .fa-facebook-square, 
@@ -431,13 +435,23 @@ footer {
 .fa-instagram-square,
 .fa-envelope-square,
 .fa-share-alt-square{
-	align-content: center;
+	
 	font-size: 1.5em;
-	margin: 20px 5px 0px 5px;
-	padding-top: 80px;
+	margin: 0px 5px 0px 5px;
+	padding-top: 90px;
+	text-align: center;
+	
+	
 	
 }
 
+.logo-footer {
+	width: 220px;
+	height: 70px;
+	float: right;
+	background: url("../images/unesco-logo.png") no-repeat;
+	
+}
 footer a:link {
 	color: #ffffff;
 	text-decoration: none;
