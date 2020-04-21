@@ -257,7 +257,6 @@ img {
 	background-color: #805F26;
 }
 
-
 .solid-btn-map{
 	
 	padding: 12px 25px;
@@ -271,14 +270,13 @@ img {
 	color: #ffffff;
 	align-content: center;
 	border: none;
-	position: relative;
 }
 
 .solid-btn-map:hover {
 	background-color: #805F26;
-	position: absolute;
-	padding-bottom: 50px;
 }
+
+
 
 
 

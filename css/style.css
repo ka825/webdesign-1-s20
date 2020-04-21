@@ -192,11 +192,16 @@ text-transform: uppercase;
 
 
 /* location */
+
+
+
 .location{
+	margin-top: 100px;
+	width: 100%;
+	padding: 5px 0;
 	background-color: #ffffff;
-	padding: 50px 0 0px 0;
-	
 }
+
 .location-head{
 	text-align: center;
 	text-transform: uppercase;
@@ -207,9 +212,13 @@ text-transform: uppercase;
 	text-align: center;
 }
 
-.map-pic {
-	padding-bottom: 50px;
+.solid-btn-map{
+	margin: 0 379px;
+	margin-bottom: 5px;
 }
+
+
+
 
 
 
@@ -315,24 +324,6 @@ color: #402f13;
 }
 
 
-
-/* Locations */
-
-.location{
-	margin-top: 100px;
-	width: 100%;
-	padding: 5px 0;
-	background-color: #ffffff;
-}
-.map-pic {
-	margin-bottom: 80px;
-}
-.map-pic img{
-	padding-bottom: 20px;
-}
-.solid-btn-map{
-	margin: 0 338px;
-}
 
 
 
