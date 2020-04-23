@@ -351,20 +351,21 @@ color: #402f13;
 .email-form input[type="email"],
 .email-form textarea,
 .email-form select {
-	width: 620px;
+	width: 100%;
 	height: 40px;
 	margin-left: 80px;
 	box-sizing: content-box;
 	background-color: #FFFFFF;
 	border: none;
-	
+	 text-indent: 20px;
 
-  
 }
 
+
+
 .solid-btn-email {
-	margin-left: 720px;
 	display: inline-block;
+	margin-left: 100px;
 
 }
 
@@ -397,9 +398,10 @@ footer {
 }
 
 
-.footer-logo{
+.footer-head{
 	text-transform: uppercase;
 	color: #ffffff;
+	text-align: center;
 	
 }
 
@@ -417,6 +419,8 @@ footer {
 	font-size: .2em;
 	color: #ffffff;
 	text-align: center;
+	text-transform: uppercase;
+	padding-top: 10px;
 }
 
 .fa-facebook-square, 
@@ -427,11 +431,17 @@ footer {
 	
 	font-size: 1.5em;
 	margin: 0px 5px 0px 5px;
-	padding-top: 90px;
 	text-align: center;
 	
-	
-	
+}
+
+
+.icons {
+	height: 52px;
+	width: 100%;
+	text-align: center;
+	float: left;
+	padding-top: 30px;
 }
 
 .logo-footer {

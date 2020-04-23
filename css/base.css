@@ -126,6 +126,17 @@ line-height: 1.2em;
 .columns_6:last-of-type {
 	margin-right: 0;
 }
+.columns_9 {
+	width: 620px;
+	float: left;
+	margin-right: 20px; 
+}
+
+.columns_9:last-of-type {
+	margin-right: 0;
+}
+
+
 .columns_12 {
 	width: 60px;
 	float: left;
@@ -135,9 +146,6 @@ line-height: 1.2em;
 .columns_12:last-of-type {
 	margin-right: 0;
 }
-
-
-
 
 
 
@@ -285,7 +293,7 @@ img {
 
 .solid-btn-email{
 	
-	padding: 12px 25px;
+	padding: 14.5px 48px;
 	background-color: #402F13;;
 	font-size: 12px;
 	border-radius: 4px;
