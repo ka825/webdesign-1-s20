@@ -356,9 +356,7 @@ color: #402f13;
 	margin-left: 80px;
 	box-sizing: content-box;
 	background-color: #FFFFFF;
-	display: inline-block;
 	border: none;
-	position: relative;
 	
 
   
@@ -366,7 +364,7 @@ color: #402f13;
 
 .solid-btn-email {
 	margin-left: 720px;
-	position: absolute;
+	display: inline-block;
 
 }
 
