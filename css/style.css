@@ -74,9 +74,10 @@ nav li a:hover{
 /* Hero Image */
 
 .hero-image {
+	top: 0;
 	width: 100%;
 	height: 800px;
-	background-image: url(/images/zonacolonial-header.jpg);
+	background-image: url(../images/zonacolonial-header.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
