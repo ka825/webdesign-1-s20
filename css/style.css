@@ -303,7 +303,7 @@ text-transform: uppercase;
 	
 }
 .testimonial-section {
-	padding-top: 25px;
+	padding-top: 30px;
 }
 
 .testimonial {
@@ -528,21 +528,32 @@ footer {
 	background-color: #402f13;
 	}
 
+	.footer-logo {
+		width: 25%;
+		height: auto;
+	}
 
-.footer-list{
+.footer-link{
 	color: #ffffff;
-	text-align: center;
 	text-transform: uppercase;
-	font-size: .2em;
+	font-size: .7em;
+	font-weight: 400;
+	list-style-type: none;
+	padding: 0 10px;
+}
+
+.footer-links{
+	display: flex;
+	list-style-type: none;
+
 }
 
 
-.footer-head{
-	text-transform: uppercase;
-	color: #ffffff;
-	text-align: center;
-	
+.footer-section {
+	display: flex;
 }
+
+
 
 
 .copyright {
@@ -555,7 +566,8 @@ footer {
 	margin-bottom: 0;
 }
 .copyright-end{
-	font-size: .2em;
+	font-size: .4em;
+	font-weight: 400;
 	color: #ffffff;
 	text-align: center;
 	text-transform: uppercase;
@@ -582,7 +594,6 @@ footer {
 	height: 52px;
 	width: 100%;
 	text-align: center;
-	float: left;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
