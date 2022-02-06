@@ -30,7 +30,7 @@ nav {
 }
 
 nav ul { 
-	margin: -12px 0;
+	margin: -12px 50px 0px 0px;
 	
 	
 	
@@ -242,11 +242,12 @@ text-transform: uppercase;
 	padding: 10px 20px;
 	text-align: center;
 	background-color: #AF8B4D;
-	height: auto;
+	
+
 }
 .attractions-caption{
 	color: #ffffff;
-	font-size: 300;
+	height: cover;
 }
 
 .solid-btn3{
@@ -529,28 +530,32 @@ footer {
 	}
 
 	.footer-logo {
-		width: 25%;
+		width: 300px;
 		height: auto;
 	}
 
 .footer-link{
 	color: #ffffff;
 	text-transform: uppercase;
-	font-size: .7em;
+	font-size: .6em;
 	font-weight: 400;
 	list-style-type: none;
+	text-decoration: none;
 	padding: 0 10px;
 }
 
 .footer-links{
+	padding-top: 25px;
 	display: flex;
 	list-style-type: none;
+	
 
 }
 
 
 .footer-section {
 	display: flex;
+justify-content: center;
 }
 
 
@@ -583,7 +588,7 @@ footer {
 .fa-envelope-square,
 .fa-share-alt-square{
 	
-	font-size: 1.5em;
+	font-size: 1.3em;
 	margin: 0px 5px 0px 5px;
 	text-align: center;
 	
@@ -594,20 +599,14 @@ footer {
 	height: 52px;
 	width: 100%;
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding: 25px;
+
 }
 
-.logo-footer {
-	width: 220px;
-	height: 70px;
-	float: right;
-	background: url("../images/unesco-logo.png") no-repeat;
-	
-}
 footer a:link {
 	color: #ffffff;
 	text-decoration: none;
+	
 }
 
 footer a:visited {
@@ -625,6 +624,10 @@ footer a:active {
 	text-decoration: underline;	
 }
 
+
+.unesco-logo{
+	padding-top: 15px;
+}
 
 
 
